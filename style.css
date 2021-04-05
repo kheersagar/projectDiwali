@@ -1,0 +1,134 @@
+                            .diwali {
+                                display: flex;
+                                flex-direction: row;
+                                background-image: linear-gradient(rgb(255, 242, 185), rgb(241, 195, 195));
+                                padding: 0px;
+                                /* border-bottom: 2px solid black; */
+                            }
+                            
+                            .nav-link {
+                                font-size: 19px;
+                                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                            }
+                            
+                            .container-fluid {
+                                border-bottom: 2px solid;
+                            }
+                            
+                            .col-6 {
+                                font-size: 29px;
+                                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                            }
+                            
+                            .cus {
+                                background-image: linear-gradient( to bottom, rgb(240, 240, 145), rgb(121, 121, 3));
+                            }
+                            
+                            .card-text {
+                                color: black;
+                            }
+                            
+                            h1 {
+                                font-size: 49px;
+                                color: rgb(236, 130, 31);
+                            }
+                            
+                            .foot {
+                                background-image: linear-gradient(to bottom, rgb(228, 206, 112), rgb(255, 247, 172));
+                            }
+                            
+                            @media(max-width:450px) {
+                                .col-6 {
+                                    font-size: 19px;
+                                }
+                                h1 {
+                                    font-size: 19px;
+                                }
+                            }
+                            
+                            .heading {
+                                animation-name: head;
+                                animation-duration: 5s;
+                                animation-iteration-count: infinite;
+                            }
+                            
+                            @keyframes head {
+                                25% {
+                                    color: rgb(94, 94, 207);
+                                }
+                                75% {
+                                    color: rgb(235, 73, 8);
+                                }
+                                100% {
+                                    color: rgb(9, 230, 39);
+                                }
+                            }
+                            /* div {
+                                border: 2px solid black;
+                            } */
+                            
+                            @media(max-width: 420px) {
+                                .dh_col {
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+                                .youtube {
+                                    max-height: 315px;
+                                }
+                            }
+                            
+                            .ani_title {
+                                animation-name: title;
+                                animation-duration: 10s;
+                                animation-iteration-count: infinite;
+                                animation-timing-function: ease-in-out;
+                            }
+                            
+                            @keyframes title {
+                                10% {
+                                    color: white;
+                                }
+                                20% {
+                                    color: green;
+                                }
+                                30% {
+                                    color: rgb(16, 63, 4);
+                                }
+                                40% {
+                                    color: rgb(235, 220, 12);
+                                }
+                                50% {
+                                    color: rgb(212, 123, 20);
+                                }
+                                60% {
+                                    color: rgb(167, 39, 7);
+                                }
+                                70% {
+                                    color: rgb(73, 29, 235);
+                                }
+                                80% {
+                                    color: rgb(44, 109, 250);
+                                }
+                                90% {
+                                    color: rgb(226, 67, 128);
+                                }
+                                100% {
+                                    color: rgb(238, 116, 207);
+                                }
+                            }
+                            
+                            .font {
+                                font-size: 17px;
+                                font-family: Georgia, 'Times New Roman', Times, serif;
+                            }
+                            
+                            .nav_menu {
+                                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                color: black;
+                                border-right: 3px solid rgb(241, 143, 14);
+                                padding-right: 5px;
+                            }
+                            
+                            .nav_menu:hover {
+                                color: rgb(255, 136, 25);
+                            }
